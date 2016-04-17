@@ -1,0 +1,21 @@
+# Site settings
+title: NeovanOrphen
+header-img: img/home-bg.jpg
+email: felipe.navarro22@gmail.com
+copyright_name: Your/Project/Corporate Name
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: ""
+url: "http://neovanorphen.github.io"
+twitter_username: FelipeOrphen
+github_username:  neovanorphen
+facebook_username:  felipe.navarro.393
+email_username:  felipe.navarro22@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
